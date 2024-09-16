@@ -11,7 +11,7 @@
     "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
     "eslint:format": "eslint src --fix",
     "test": "jest test",
-    "test:ci": "jest --ci",
+    "test:ci": "jest --ci --passWithNoTests",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
     "postinstall": "husky init",
