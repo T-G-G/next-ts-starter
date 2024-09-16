@@ -14,7 +14,8 @@
     "test:ci": "jest --ci",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
-    "postinstall": "husky install"
+    "postinstall": "husky init",
+    "prepare": "husky"
   },
   "lint-staged": {
     "src/**/*": [
