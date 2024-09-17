@@ -10,7 +10,7 @@
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
     "eslint:format": "eslint ./ --fix",
-    "test": "jest test",
+    "test": "jest test --passWithNoTests",
     "test:ci": "jest --ci --passWithNoTests",
     "test:coverage": "jest --coverage",
     "test:watch": "jest --watch",
