@@ -9,7 +9,7 @@
     "lint": "next lint",
     "prettier:format": "prettier --write .",
     "prettier:check": "prettier --check \"**/*.{ts,tsx,json}\"",
-    "eslint:format": "eslint src --fix",
+    "eslint:format": "eslint ./ --fix",
     "test": "jest test",
     "test:ci": "jest --ci --passWithNoTests",
     "test:coverage": "jest --coverage",
@@ -18,7 +18,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "src/**/*": [
+    "./**/*": [
       "pnpm prettier:format",
       "pnpm eslint:format"
     ]
