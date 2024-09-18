@@ -12,8 +12,8 @@ A pnpm project creating a nice base-ground on which to develop [nextjs](https://
 - GitHooks: [Husky](https://typicode.github.io/husky/) & [LintStaged](https://github.com/lint-staged/lint-staged)
 - Build: [Turbo](https://nextjs.org/docs/architecture/turbopack)
 - Env: [t3-env](https://github.com/t3-oss/t3-env)
-- Schema validationL: [zod](https://zod.dev/)
-- Styles: [GDS](https://github.com/govuk-react/govuk-react) & [Tailwind CSS](https://tailwindcss.com/)
+- Schema validation: [zod](https://zod.dev/)
+- Styles: [Tailwind CSS](https://tailwindcss.com/)
 
 ## Usage
 
